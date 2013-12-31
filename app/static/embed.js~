@@ -1,0 +1,5 @@
+$('p a').embedly({
+    key: 'Your Embedly Key',
+    query: {maxwidth:530} });
+
+

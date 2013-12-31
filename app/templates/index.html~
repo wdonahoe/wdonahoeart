@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Artwork by Wendy Donahoe</title>
+        <link href="../static/style.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+        
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.min.js"></script>
+        <script type="text/javascript">
+            function cycleImages(){
+                var images = $('#welcomeimage img'),
+                    now    = images.filter(':visible'),
+                    next   = now.next().length ? now.next() : images.first(),
+                    speed  = 1500;
+
+                now.fadeOut(speed);
+                next.fadeIn(speed);
+            }
+
+            $(function() {
+                setInterval(cycleImages, 3000);
+            });
+            
+        </script>
+        
+        <meta property="og:title" content="Artwork by Wendy Donahoe - Contemporary realist drawings.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://www.wendydonahoeart.com">
+        <meta property="og:image" content="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/Thirteen.jpg">
+        <meta name="Description" content="Contemporary realist artist, Wendy Jones Donahoe creates finely detailed drawings in graphite, charcoal, and colored pencil from her studios in Alexandria, Virginia and Gerradstown, West Virginia.">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <!-- For development only -->
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">  
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!-- For development only -->
+            <a href="/home"><span></span></a>
+            <div id="welcomeimage">
+                <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/Thirteen_Gallery_Smaller.jpg">
+                <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/DistantCousins_Gallery_Smaller.jpg">
+                <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/Olivia_Gallery_Smaller.jpg">
+                <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/A_Pair_of_Hands_Gallery_Smaller.jpg">
+                <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/IslandFairy_Gallery_Smaller.jpg">
+            </div>
+            <div id="title">
+                Wendy Donahoe | Realist Art
+            </div>
+            <div class="clear"></div>
+        </div>
+    </body>
+</html>
