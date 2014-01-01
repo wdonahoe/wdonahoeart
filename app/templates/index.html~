@@ -38,13 +38,9 @@
     <body>
         <div class="wrapper">
             <!-- For development only -->
-            <a href="/home"><span></span></a>
+            <a href="/home"><span class="home_span"></span></a>
             <div id="welcomeimage">
-                <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/Thirteen_Gallery_Smaller.jpg">
-                <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/DistantCousins_Gallery_Smaller.jpg">
-                <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/Olivia_Gallery_Smaller.jpg">
-                <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/A_Pair_of_Hands_Gallery_Smaller.jpg">
-                <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/IslandFairy_Gallery_Smaller.jpg">
+                
             </div>
             <div id="title">
                 Wendy Donahoe | Realist Art

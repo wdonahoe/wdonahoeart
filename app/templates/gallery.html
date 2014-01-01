@@ -22,8 +22,8 @@
 		<!-- jScrollPane script -->
 		<script type="text/javascript" src="http://c380a080ff283bcbee82-404c3d2d6aa0d161ba304d89ab3a9a85.r37.cf5.rackcdn.com/jquery.jscrollpane.min.js"></script>
 		<!-- jScrollPane fadeIn / Out -->	      
-        <script type="text/javascript">
-            $(function()
+        <script type="text/javascript">           
+            $(document).ready(function()
                 {
 	                $('.scroll-pane').jScrollPane({
 	                    autoReinitialise: true
@@ -42,25 +42,43 @@
                     });
                 }
              );
-            
-            $(function()
-                {
-                    $('.scroll-pane img').click(function(event){
+         </script>
+         <script>  
+            function updateLink(visible) {
+                var newlink = visible.attr('src').replace('_Smaller','');
+                visible.wrap($('<a>', {
+                    id: 'img-wrapper',
+                    href: newlink,
+                    width: visible.attr('width'),
+                    height: visible.attr('height'),
+                }));
+            }
+            $(document).ready(function()
+                {     
+                    updateLink($('#gallery img').first());
+                                               
+                    $('.scroll-pane img').unbind('click').on('click', (function(event) {
                         event.stopPropagation();
-                        var images  = $('#gallery img');
+                      
                         var index   = $(this).index() + 1,
+                            images  = $('#gallery img'),
                             now     = images.filter(':visible'),
+                            next    = $('#gallery > img:nth-child('+index+')'), 
                             speed   = 300;
                             
-                        now.fadeOut(speed);
-                        $('#gallery > img:nth-child('+index+')').fadeIn(speed);                       
-                    });                 
+                            if (now.get(0) != $(this).get(0)){
+                                now.fadeOut(speed);
+                                next.fadeIn(speed);
+                                now.unwrap();
+                                updateLink(next);
+                            }                   
+                    }));                 
                 }
-             );
+            );
         </script>    
        
         <!-- Styles specific to this page -->
-        <style>
+        <style>           
             .scroll-pane {
                 position:relative;
                 top:20px;
@@ -120,8 +138,8 @@
                     <div id="rightcolumn" class="col">
                         <div id="gallery">
                             {% for url in gallery_urls %}
-                            <img src={{url}}>                          
-                            {% endfor %}
+                            <img src={{url}}>                        
+                            {% endfor %} 
                         </div>
                     </div>
                 </div>
