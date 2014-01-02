@@ -112,7 +112,7 @@ a {
     width:555px;
     right:-50%;
     width:50%;
-    background:red;
+    display:hidden;
 }
 
 #welcomeimage img {
@@ -148,7 +148,9 @@ a {
 
 #rightcolumn img {
     position:absolute;
-    margin: 0 10px 0 10px;
+    margin: 10px 10px 10px 50px;
+    height:100%;
+    width:auto;
 }
 
 #phead {
@@ -182,7 +184,7 @@ a {
     position:absolute;
     left:5%;
     width:auto;
-    height:100%;
+    height:90%;
     z-index:1;
     display:none;
     cursor:pointer;
@@ -190,6 +192,17 @@ a {
 
 #gallery img:first-child {
     display:block;
+}
+
+#gallery #info-strip {
+    position:absolute;
+    top:92%;
+    height:7%;
+    width:auto;
+    left:85px;
+    display:none;
+    color:white;
+    text-align:left;
 }
 
 img.full-image {
