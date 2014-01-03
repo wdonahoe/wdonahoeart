@@ -9,7 +9,7 @@
         <meta property="og:title" content="Artwork by Wendy Donahoe - Contemporary realist drawings.">
         <meta property="og:type" content="website">
         <meta property="og:url" content="http://www.wendydonahoeart.com/home">
-        <meta property="og:image" content="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/Thirteen.jpg">
+        <meta property="og:image" content="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/Thirteen_Gallery_Thumbnail.jpg">
         <meta name="Description" content="Contemporary realist artist, Wendy Jones Donahoe creates finely detailed drawings in graphite, charcoal, and colored pencil from her studios in Alexandria, Virginia and Gerradstown, West Virginia.">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />       
         <!-- For development only -->
@@ -33,13 +33,13 @@
                         <div id="m1"
                              onmouseover="mcancelclosetime()"
                              onmouseout="mclosetime()">
-                            <a href="#">Bio</a>
-                            <a href="#">CV</a>
+                            <a href="/bio">Bio</a>
+                            <a href="/cv">CV</a>
                         </div>
                     </li>
                     <li><a href="/shades_of_gray">Shades of Gray</a></li>
                     <li><a href="/color">Color</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>        
             </div>
             <div id="container">
@@ -50,7 +50,7 @@
                     <br><br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
                 </div>
                 <div id="rightcolumn" class="col">
-                    <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/Bag_Lunch_Welcome.jpg">
+                    <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/FourFifteenPrince_Gallery_Smaller.jpg">
                 </div>
             </div>
         </div>   

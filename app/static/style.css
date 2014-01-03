@@ -17,6 +17,8 @@ span.home_span {
 
 a {
     outline:none;
+    text-decoration:none;
+    color:inherit;
 }
 
 #header {
@@ -167,6 +169,13 @@ a {
     color:#909090;
 }
 
+#contact {
+    color:white;
+    font-size:large;
+    text-align:center;
+    text-decoration:none;
+}
+
 .col {
     display:table-cell;
 }
@@ -206,6 +215,27 @@ a {
     font-size:small;
 }
 
+#contact-header {
+    position:absolute;
+    height:105px;
+    width:100%;    
+}
+
+#contact-image {
+    position:absolute;
+    height:200px;
+    width:100%;
+    top:100px;
+    cursor:default;
+}
+
+#contact-image img {
+    position:absolute;
+    left:25%;
+    width:50%;
+    height:auto;
+}
+
 img.full-image {
     position:absolute;
 }
@@ -215,7 +245,7 @@ img.full-image {
     width:1100px;
     height:655px;
     margin-left:auto;
-    margin-right:auto;  
+    margin-right:auto;
 }
 
 .spacer {
