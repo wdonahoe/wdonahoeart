@@ -174,7 +174,6 @@ a {
     font-size:large;
     text-align:center;
     text-decoration:none;
-    background:red;
 }
 
 .col {
@@ -214,6 +213,7 @@ a {
     color:white;
     text-align:left;
     font-size:small;
+    background:red;
 }
 
 #contact-header {
