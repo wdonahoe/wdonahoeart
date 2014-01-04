@@ -179,7 +179,8 @@
                         $('#info-strip').html(function(){
                             var data = getImageData(window.location.pathname == '/color' ?
                                 c_imgData : bw_imgData, index);
-                            var info = '<p>' + title ', ' + data.slice(1,3).join(', ') + '</p>';
+                            var title = data[0] + ', ';
+                            var info = '<p>' + title + data.slice(1,3).join(', ') + '</p>';
                             console.log(info);
                             return info;
                         });
