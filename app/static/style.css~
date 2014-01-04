@@ -162,9 +162,9 @@ a {
 
 /* Flush left, ragged right */
 #pbody {
-    font-size: .85em;
-    line-height: 1.25em;
-    margin: 1.25em 0;
+    font-size: 1.0em;
+    line-height: 1.75em;
+    margin: 1.75em 0;
     text-align: left;
     color:#909090;
 }
@@ -213,7 +213,6 @@ a {
     color:white;
     text-align:left;
     font-size:small;
-    background:red;
 }
 
 #contact-header {

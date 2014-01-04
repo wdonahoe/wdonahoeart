@@ -162,9 +162,9 @@ a {
 
 /* Flush left, ragged right */
 #pbody {
-    font-size: .85em;
-    line-height: 1.25em;
-    margin: 1.25em 0;
+    font-size: 1.1em;
+    line-height: 1.9em;
+    margin: 1.9em 0;
     text-align: left;
     color:#909090;
 }

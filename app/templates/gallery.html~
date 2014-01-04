@@ -179,8 +179,9 @@
                         $('#info-strip').html(function(){
                             var data = getImageData(window.location.pathname == '/color' ?
                                 c_imgData : bw_imgData, index);
-                            var title = '<strong>' + data[0] + '</strong>' + ', ';
-                            return title + data.slice(1,3).join(', ');
+                            var info = '<p>' + title ', ' + data.slice(1,3).join(', ') + '</p>';
+                            console.log(info);
+                            return info;
                         });
                     },
                     mouseout: function () {
