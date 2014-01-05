@@ -146,8 +146,6 @@
                     width: visible.width(),
                     height: visible.height(),
                 }));
-                console.log(visible.width());
-                $('#info-strip').width(visible.width());
             }
             
             function getImageData(data, i){
@@ -175,6 +173,7 @@
                         }
                     },
                     mouseover: function () {
+                        $('#info-strip').width($('#gallery img').filter(':visible').width());
                         var index = $(this).index();
                         $('#info-strip').show();
                         $('#info-strip').html(function(){
