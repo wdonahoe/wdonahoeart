@@ -180,7 +180,8 @@
                             var data = getImageData(window.location.pathname == '/color' ?
                                 c_imgData : bw_imgData, index);
                             var title = data[0] + ', ';
-                            return info = title + data.slice(1,3).join(', ');
+                            return info = '<strong>' + title + '</strong>' 
+                                + data.slice(1,3).join(', ');
                         });
                     },
                     mouseout: function () {
