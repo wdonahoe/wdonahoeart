@@ -134,21 +134,19 @@ a {
     position:relative;    
 }
 
-#leftcolumn {
+#leftcolumn, #leftbiocv {
     background-color:black;
-    width:400px;
     height:100%;
     color:#909090;
 }
 
-#rightcolumn {
+#rightcolumn, #rightbiocv {
     background-color:black;
-    width:600px;
     height:100%;
     overflow:hidden;
 }
 
-#rightcolumn img {
+#rightcolumn img, #rightbiocv img {
     position:absolute;
     margin: 10px 10px 10px 50px;
     height:100%;
@@ -221,7 +219,7 @@ a {
     color:white;
     text-align:left;
     font-size:small;
-    background:red;
+    background:black;
 }
 
 #contact-header {
