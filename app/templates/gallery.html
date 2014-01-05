@@ -180,9 +180,7 @@
                             var data = getImageData(window.location.pathname == '/color' ?
                                 c_imgData : bw_imgData, index);
                             var title = data[0] + ', ';
-                            var info = '<p>' + title + data.slice(1,3).join(', ') + '</p>';
-                            console.log(info);
-                            return info;
+                            return info = title + data.slice(1,3).join(', ');
                         });
                     },
                     mouseout: function () {
@@ -255,7 +253,7 @@
                             {% for url in gallery_urls %}
                             <img src={{url}}>                        
                             {% endfor %} 
-                            <div id="info-strip"></div>
+                            <p id="info-strip"></p>
                         </div>
                     </div>
                 </div>

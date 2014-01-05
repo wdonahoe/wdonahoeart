@@ -221,6 +221,7 @@ a {
     color:white;
     text-align:left;
     font-size:small;
+    background:red;
 }
 
 #contact-header {
