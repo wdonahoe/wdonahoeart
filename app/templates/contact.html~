@@ -50,7 +50,11 @@
                     </div>
                     <div id="contact-image">
                         <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/Thirteen_Detail.jpg">
-                    </div>                   
+                    </div>
+                    <div id="contact-header-low">
+                        <p id="contact">Site by Wallace Donahoe</p>
+                        <p id="contact"><a href="mailto:wdonahoe@udel.edu">wdonahoe@udel.edu</p>
+                     </div>                   
                 </div>
             </div>
         </div>   

@@ -245,6 +245,14 @@ a {
     height:auto;
 }
 
+#contact-header-low {
+    position:absolute;
+    height:105px;
+    width:100%;
+    top:305px;    
+}
+
+
 img.full-image {
     position:absolute;
 }

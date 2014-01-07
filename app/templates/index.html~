@@ -5,6 +5,15 @@
         <link href="../static/style.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
         
+        <meta property="og:title" content="Artwork by Wendy Donahoe - Contemporary realist drawings.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://www.wendydonahoeart.com">
+        <meta property="og:image" content="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/Thirteen_Gallery_Thumbnail.jpg">
+        <meta name="Description" content="Contemporary realist artist, Wendy Jones Donahoe creates finely detailed drawings in graphite, charcoal, and colored pencil from her studios in Alexandria, Virginia and Gerradstown, West Virginia.">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />       
+        <!-- For development only -->
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+        
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.min.js"></script>
         <script type="text/javascript">
@@ -22,17 +31,7 @@
                 setInterval(cycleImages, 3000);
             });
             
-        </script>
-        
-        <meta property="og:title" content="Artwork by Wendy Donahoe - Contemporary realist drawings.">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="http://www.wendydonahoeart.com">
-        <meta property="og:image" content="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/Thirteen_Gallery_Thumbnail.jpg">
-        <meta name="Description" content="Contemporary realist artist, Wendy Jones Donahoe creates finely detailed drawings in graphite, charcoal, and colored pencil from her studios in Alexandria, Virginia and Gerradstown, West Virginia.">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        
-        <!-- For development only -->
-        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">  
+        </script>  
     </head>
 
     <body>
