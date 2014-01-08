@@ -250,7 +250,6 @@ a {
     height:105px;
     width:100%;
     top:305px;    
-    background:red;
 }
 
 
