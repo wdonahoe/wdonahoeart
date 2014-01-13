@@ -169,6 +169,14 @@ a {
     color:#909090;
 }
 
+#cvbody {
+    font-size: 0.85em;
+    line-height: 1.8em;
+    margin: 1.9em 1.0em;
+    text-align: left;
+    color:#909090;
+}
+
 #last-line {
     font-size: 1.1em;
     line-height: 1.9em;
