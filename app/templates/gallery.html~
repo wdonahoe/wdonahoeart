@@ -62,7 +62,8 @@
                              ['Second Chair','colored pencil','12" x 9"'],
                              ['Tween Angel','colored pencil','12" x 9"'],
                              ['Avery In Her Second Summer','graphite','17" x 12.5"'],
-                             ['The Marriage Bed','graphite','6" x 8"']];
+                             ['The Marriage Bed','graphite','6" x 8"'],
+                             ['Old Souls','graphite','10" x 6"']];
             
             //All image names, dimensions, and media for color.                 
             var color_images = [['Distant Cousins','colored pencil','10" x 13"'],
