@@ -43,7 +43,6 @@
          </script>
          
          <script>
-            
             //All image names, dimensions, and media for shades of gray.                              
             var bw_images = [['Leap Day','charcoal and carbon pencil','17.5" x 14.25"'],
                              ['Island Fairy','charcoal and carbon pencil','10" x 10"'],
@@ -80,14 +79,15 @@
                             ['South Of King','colored pencil','10" x 10"'],
                             ['Pink Ladies','colored pencil','8" x 10" - SOLD'],
                             ['Bridal Satin','graphite and metallic watercolor','18" x 13"']];
+
                                                            
             function updateLink(visible) {
                 var newlink = visible.attr('src').replace('_Smaller','');
                 visible.wrap($('<a>', {
                     id: 'img-wrapper',
                     href: newlink,
-                    width: visible.width(),
-                    height: visible.height(),
+                    width: visible.parent().width(),
+                    height: visible.parent().height(),
                 }));
             }
             

@@ -41,7 +41,7 @@ color = [
 
 
 def gallery(slider_urls, gallery_urls):
-    return render_template("gallery.html",
+    return render_template("gallery2.html",
      slider_urls = slider_urls,
      gallery_urls = gallery_urls)
      
