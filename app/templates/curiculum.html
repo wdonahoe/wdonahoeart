@@ -22,7 +22,9 @@
         <script type="text/javascript">
             $(function()
                 {
-                    $('.scroll-pane').jScrollPane();
+                    $('.scroll-pane').jScrollPane({
+                        autoReinitialise: true;
+                    });
                 }
              );
         </script>
