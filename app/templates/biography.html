@@ -23,7 +23,11 @@
         <script type="text/javascript">
             $(function()
                 {
-                    $('.scroll-pane').jScrollPane();
+                    $('.scroll-pane').jScrollPane(
+                        {
+                            autoReinitialise: true;
+                        }
+                    );
                 }
              );
         </script>
@@ -53,7 +57,6 @@
 
             .scroll-pane {
                 position:relative;
-                top:20px;
                 width:500px;
                 height:500px;
                 overflow:auto;
@@ -141,7 +144,6 @@
                         conceptually.  Artists are using drawing as a primary mode of expression in
                         the 21st century".
                         </p>
-                        <p></p>
                     </div>
                 </div>
                 <div id="rightbio" class="col">
