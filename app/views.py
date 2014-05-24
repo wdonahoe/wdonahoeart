@@ -37,7 +37,6 @@ color = [
 "FourFifteenPrince",
 "StoneFaced",
 "South_of_King",
-"PinkLadies",
 "Bridal_Satin"]
 
 
