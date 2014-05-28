@@ -20,25 +20,14 @@
 
         <script type="text/javascript" src="http://c380a080ff283bcbee82-404c3d2d6aa0d161ba304d89ab3a9a85.r37.cf5.rackcdn.com/jquery.jscrollpane.min.js"></script>
         <script type="text/javascript" src="http://c380a080ff283bcbee82-404c3d2d6aa0d161ba304d89ab3a9a85.r37.cf5.rackcdn.com/jquery.mousewheel.js"></script>
-        <script type="text/javascript">
-            (function(){
-                // if firefox 3.5+, hide content till load (or 3 seconds) to prevent FOUT
-                var d = document, e = d.documentElement, s = d.createElement('style');
-                if (e.style.MozTransform === ''){ // gecko 1.9.1 inference
-                    s.textContent = 'body{visibility:hidden}';
-                    var r = document.getElementsByTagName('script')[0];
-                    r.parentNode.insertBefore(s, r);
-                    function f(){ s.parentNode && s.parentNode.removeChild(s);}
-                    addEventListener('load',f,false);
-                    setTimeout(f,3000);
-                }
-            })();
-            
+        <script type="text/javascript">        
+           
             $(function()
                 {
                     $('.scroll-pane').jScrollPane({autoReinitialise:true});
                 }
              );
+
         </script>       
         
         <style>
@@ -118,7 +107,7 @@
                         called "Brookside".  As a child I began to draw from the Jones Family album of old
                         sepia toned photographs as a means to get to know my father, who had died before
                         my first birthday.  Living in Newark afforded me the opportunity to attend the University
-                        of Delaware where I received top notched instruction from many notable artists. 
+                        of Delaware where I received top-notch instruction from many notable artists. 
                         Realist artist, Steve Tanis, introduced me to a "continuous tone" method of drawing
                         which I have used ever since, and developed as my signature style.
                         </p>
