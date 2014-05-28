@@ -12,7 +12,7 @@ span.home_span {
     left: 0;
     z-index: 1;
     /* fixes overlap error in IE7/8 */
-    background-image: url('empty.gif');
+    /*background-image: url('empty.gif');*/
 }
 
 a {
