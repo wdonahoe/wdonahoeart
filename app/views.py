@@ -17,11 +17,11 @@ bw = [
 "Haley",
 "Firstborn",
 "WinterArbor",
-"Second_Chair",
+"SecondChair",
 "TweenAngel",
 "AveryInHerSecondSummer",
 "TheMarriageBed",
-"Old_Souls"]
+"OldSouls"]
 
 color = [
 "DistantCousins",
@@ -30,14 +30,14 @@ color = [
 "Origami",
 "HighCloudsOverBroomgrass",
 "AveryAtTwelveIn1465",
-"Plate_122",
+"Plate122",
 "PosterChild",
-"Bag_Lunch",
-"A_Pair_of_Hands",
+"BagLunch",
+"APairofHands",
 "FourFifteenPrince",
 "StoneFaced",
-"South_of_King",
-"Bridal_Satin"]
+"SouthofKing",
+"BridalSatin"]
 
 
 def gallery(slider_urls, gallery_urls):
@@ -75,4 +75,8 @@ def cv():
 @app.route('/contact')
 def contact():
     return render_template("contact.html")
+
+@app.route('/image/<img_name>')
+def image(img_name = None):
+    return render_template("image.html", image = url + img_name + "_Gallery.jpg", name = img_name)
     
