@@ -30,13 +30,11 @@
                 var clicked = false;
                 $('img').click(function(){
                     if (clicked == false){
-                        $(this).css('max-height','none');
-                        $(this).css('cursor','zoom-out')
+                        $(this).css({'max-height' : 'none','width' : '100%', 'cursor' : 'zoom-in'});
                         clicked = true;
                     }
                     else{
-                        $(this).css('max-height','97vh');
-                        $(this).css('cursor','zoom-in');
+                        $(this).css({'max-height' : '97vh','width' : 'auto', 'cursor' : 'zoom-out'});
                         clicked = false;
                     }
                 });
