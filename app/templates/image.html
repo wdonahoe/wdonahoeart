@@ -8,8 +8,10 @@
         <meta name="Description" content="Contemporary realist artist, Wendy Jones Donahoe creates finely detailed drawings in graphite, charcoal, and colored pencil from her studios in Alexandria, Virginia and Gerradstown, West Virginia.">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
 		<link href="../static/image_stylesheet.css" rel="stylesheet" type="text/css">
+
 		<title>{{name}}</title>
 
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>       
 		<script type="text/javascript">
             (function(){
                 // if firefox 3.5+, hide content till load (or 3 seconds) to prevent FOUT
@@ -23,9 +25,26 @@
                     setTimeout(f,3000);
                 }
             })();
+
+            $(document).ready(function(){
+                var clicked = false;
+                $('img').click(function(){
+                    if (clicked == false){
+                        $(this).css('max-height','none');
+                        $(this).css('cursor','zoom-out')
+                        clicked = true;
+                    }
+                    else{
+                        $(this).css('max-height','97vh');
+                        $(this).css('cursor','zoom-in');
+                        clicked = false;
+                    }
+                });
+            });
+
         </script>
 	</head>
     <body>
-        <img src={{image}} alt={{image}}>
+        <img src={{image}}>
     </body>
 </html>
