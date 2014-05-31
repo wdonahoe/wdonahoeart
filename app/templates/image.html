@@ -30,7 +30,7 @@
              * CSS viewport units with jQuery
              * http://www.w3.org/TR/css3-values/#viewport-relative-lengths
              */
-            ;(function( $, window ){
+            function convertVh( $, window ){
             
               var $win = $(window)
                 , _css = $.fn.css;
@@ -60,12 +60,12 @@
                 $win.resize( update ).resize();
                 return update();
               };
-            
-            }( jQuery, window ));
+            }
 
             $(document).ready(function(){
+                convertVh($, window);
+
                 var clicked = false;
-                var check = document.createElement('span');
 
                 $('img').click(function(){
                     if (clicked == false){
