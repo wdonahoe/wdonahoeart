@@ -33,7 +33,7 @@ color = [
 "Plate122",
 "PosterChild",
 "BagLunch",
-"APairofHands",
+"APearofHands",
 "FourFifteenPrince",
 "StoneFaced",
 "SouthofKing",
