@@ -3,6 +3,8 @@ from app import app
 
 url = "http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/"
 bw = [
+"Avery",
+"LeapDay",
 "IslandFairy",
 "AveryAtTheWindow",
 "Nicholas",
@@ -15,10 +17,11 @@ bw = [
 "Haley",
 "Firstborn",
 "WinterArbor",
-"Second_Chair",
+"SecondChair",
 "TweenAngel",
 "AveryInHerSecondSummer",
-"TheMarriageBed"]
+"TheMarriageBed",
+"OldSouls"]
 
 color = [
 "DistantCousins",
@@ -27,19 +30,18 @@ color = [
 "Origami",
 "HighCloudsOverBroomgrass",
 "AveryAtTwelveIn1465",
-"Plate_122",
+"Plate122",
 "PosterChild",
-"Bag_Lunch",
-"A_Pair_of_Hands",
+"BagLunch",
+"APearofHands",
 "FourFifteenPrince",
 "StoneFaced",
-"South_of_King",
-"PinkLadies",
-"Bridal_Satin"]
+"SouthofKing",
+"BridalSatin"]
 
 
 def gallery(slider_urls, gallery_urls):
-    return render_template("gallery.html",
+    return render_template("gallery2.html",
      slider_urls = slider_urls,
      gallery_urls = gallery_urls)
      
@@ -73,4 +75,8 @@ def cv():
 @app.route('/contact')
 def contact():
     return render_template("contact.html")
+
+@app.route('/image/<img_name>')
+def image(img_name = None):
+    return render_template("image.html", image = url + img_name + "_Gallery.jpg", name = img_name)
     

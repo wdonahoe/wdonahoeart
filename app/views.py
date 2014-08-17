@@ -25,7 +25,6 @@ bw = [
 
 color = [
 "DistantCousins",
-"LightBox",
 "SurfAndTurf",
 "Origami",
 "HighCloudsOverBroomgrass",
