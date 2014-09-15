@@ -1,0 +1,12 @@
+body {
+	background-color:#282828;
+}
+
+img {
+    max-height:97vh;
+    width:auto;
+    display:block;
+    margin:auto;
+    cursor:zoom-in;
+}
+

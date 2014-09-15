@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Artwork by Wendy Donahoe</title>
+        
+        <link href="../static/style.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+        
+        <meta property="og:title" content="Artwork by Wendy Donahoe - Contemporary realist drawings.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://www.wendydonahoeart.com/home">
+        <meta property="og:image" content="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/Thirteen_Gallery_Thumbnail.jpg">
+        <meta name="Description" content="Contemporary realist artist, Wendy Jones Donahoe creates finely detailed drawings in graphite, charcoal, and colored pencil from her studios in Alexandria, Virginia and Gerradstown, West Virginia.">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />       
+        <!-- For development only -->
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+        
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>       
+        <script type="text/javascript" src="http://c380a080ff283bcbee82-404c3d2d6aa0d161ba304d89ab3a9a85.r37.cf5.rackcdn.com/jquery.navbar.min.js"></script>       
+    </head>
+    
+    <body>
+        <div class="wrapper">
+            <div id="header">
+                <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/Wendy_Donahoe1.jpg" alt="header img">
+                <ul id="navlist">
+                    <li><a href="/index">Home</a></li>
+                    <li>
+                        <a onmouseover="mopen('m1')"
+                           onmouseout="mclosetime()"
+                           href="/home">About</a>
+                        <div id="m1"
+                             onmouseover="mcancelclosetime()"
+                             onmouseout="mclosetime()">
+                            <a href="/bio">Bio</a>
+                            <a href="/cv">CV</a>
+                        </div>
+                    </li>
+                    <li><a href="/shades_of_gray">Shades of Gray</a></li>
+                    <li><a href="/color">Color</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>        
+            </div>
+            <div id="container">
+                <div id="leftcolumn" class="col">
+                    <p id="phead">Artist Statement</p>
+                    <p id="pbody">As a Realist Artist my intention is not to create art that merely records an image that will only elicit a singular response. The phrase, “a picture tells a thousand stories”, is how I approach art and create art, and that the conceptual elements will engage the viewer to lead them to their own personal response.  What a tragedy that the artist would disclose their intent and in doing so erases the mystery. Allow the viewer to have their moment alone... find their own words.</p>
+                    <p id="last-line">Art is wordless but to ourselves.</p>
+                </div>
+                <div id="rightcolumn" class="col">
+                    <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/FourFifteenPrince_Gallery_Smaller.jpg">
+                </div>
+            </div>
+        </div>   
+    </body>
+</html>

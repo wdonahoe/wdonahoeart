@@ -1,0 +1,285 @@
+
+body, #title, .wrapper, li {
+    background-color:black;
+    font-family:"Open Sans", sans-serif;
+}
+
+span.home_span {
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index: 1;
+    /* fixes overlap error in IE7/8 */
+    /*background-image: url('empty.gif');*/
+}
+
+a {
+    outline:none;
+    text-decoration:none;
+    color:inherit;
+}
+
+#header {
+    height:100px;
+    background-color:black;
+    color:white;
+    font-size:xx-large;
+    border-bottom-style:solid;
+    border-width:1px;
+    color:#909090;
+    font-size:large;
+}
+
+#header img {
+    position:absolute;
+    left:20px;
+}
+
+#navlist {
+    margin:0;
+    padding:0;
+    z-index:3;
+}
+
+#navlist li {
+    position:relative;
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    color:#909090;
+    left:300px;
+    top:40px;
+    float:left;
+}
+
+#navlist li:hover, #navlist li div a:hover {
+    background-color:#282828;
+    -webkit-transition: background 300ms;
+    -moz-transition: background 300ms;
+    -o-transition: background 300ms;
+    transition: background 300ms;
+}
+
+#navlist li a {
+    margin:0 1px 0 0;
+    padding:0 10px;
+    text-align:center;
+    text-decoration:none;
+    color:#909090;
+}
+
+#navlist li a:hover {
+    color:white;
+}
+
+#navlist li div {
+    position:absolute;
+    visibility:hidden;
+    margin:0;
+    padding:0;
+    background:black;
+    z-index:2;
+    width:100%;
+}
+
+#navlist li div a {
+    position:relative;
+    color:#909090;
+    display:block;
+    margin:0;
+    text-align:left;
+    text-decoration:none;
+}
+
+#navlist li div a:hover {
+    background-color:#282828;
+}
+
+#title {
+    position:absolute;
+    height:655px;
+    line-height:655px;
+    top:50%;
+    width:50%;
+    margin-top:-328px;
+    color:white;
+    font-size:x-large;
+}
+
+#welcomeimage {
+    position:relative;
+    height:655px;
+    width:555px;
+    right:-50%;
+    width:50%;
+}
+
+#welcomeimage img {
+    display:none;
+    position:absolute;
+    top:0;
+    left: 0;
+}
+
+#welcomeimage img:first-child {
+    display:block;
+}
+
+#container {
+    display:table;
+    margin:0 auto;
+    position:relative;    
+}
+
+#leftcolumn {
+    background-color:black;
+    width:400px;
+    height:100%;
+    color:#909090;
+}
+
+#rightcolumn {
+    background-color:black;
+    width:600px;
+    height:100%;
+    overflow:hidden;
+}
+
+#rightcolumn img {
+    position:absolute;
+    margin: 10px 10px 10px 50px;
+    height:100%;
+    width:auto;
+}
+
+#phead {
+    color:white;
+    font-size:large;
+}
+
+/* Flush left, ragged right */
+#pbody {
+    font-size: 1.0em;
+    line-height: 1.8em;
+    margin: 1.9em 0;
+    text-align: left;
+    color:#909090;
+}
+
+#cvbody {
+    font-size: 0.85em;
+    line-height: 1.8em;
+    margin: 1.9em 1.0em;
+    text-align: left;
+    color:#909090;
+}
+
+#last-line {
+    font-size: 1.1em;
+    line-height: 1.9em;
+    margin: 1.9em 0;
+    text-align: right;
+    color:#909090;
+}
+
+#contact {
+    color:white;
+    font-size:large;
+    text-align:center;
+    text-decoration:none;
+}
+
+.col {
+    display:table-cell;
+}
+
+#gallery {
+    position:absolute;
+    top:10px;
+    left:200px;
+    width:715px;
+    height:519px;
+}
+
+#gallery img {
+    position:absolute;
+    left:5%;
+    width:auto;
+    height:90%;
+    z-index:1;
+    display:none;
+    cursor:pointer;
+}
+
+#gallery img:first-child {
+    display:block;
+}
+
+#gallery #info-strip {
+    position:absolute;
+    top:92%;
+    height:7%;
+    width:auto;
+    left:85px;
+    display:none;
+    color:white;
+    text-align:left;
+    font-size:small;
+    background:black;
+}
+
+#contact-header {
+    position:absolute;
+    height:105px;
+    width:100%;    
+}
+
+#contact-image {
+    position:absolute;
+    height:200px;
+    width:100%;
+    top:100px;
+    cursor:default;
+}
+
+#contact-image img {
+    position:absolute;
+    left:25%;
+    width:50%;
+    height:auto;
+}
+
+#contact-header-low {
+    position:absolute;
+    height:105px;
+    width:100%;
+    top:305px;    
+}
+
+#contactme {
+    color:#909090;
+    text-align:center;
+    text-decoration:none;
+}
+
+
+img.full-image {
+    position:absolute;
+}
+
+.wrapper {
+    position:relative;
+    width:1100px;
+    height:655px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.spacer {
+    clear:both;
+}
+
+
+

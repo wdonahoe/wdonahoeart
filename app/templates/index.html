@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Artwork by Wendy Donahoe</title>
+        <link href="../static/style.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+        
+        <meta property="og:title" content="Artwork by Wendy Donahoe - Contemporary realist drawings.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://www.wendydonahoeart.com">
+        <meta property="og:image" content="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/Thirteen_Gallery_Thumbnail.jpg">
+        <meta name="Description" content="Contemporary realist artist, Wendy Jones Donahoe creates finely detailed drawings in graphite, charcoal, and colored pencil from her studios in Alexandria, Virginia and Gerradstown, West Virginia.">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />       
+        
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script type="text/javascript">
+            (function(){
+                // if firefox 3.5+, hide content till load (or 3 seconds) to prevent FOUT
+                var d = document, e = d.documentElement, s = d.createElement('style');
+                if (e.style.MozTransform === ''){ // gecko 1.9.1 inference
+                    s.textContent = 'body{visibility:hidden}';
+                    var r = document.getElementsByTagName('script')[0];
+                    r.parentNode.insertBefore(s, r);
+                    function f(){ s.parentNode && s.parentNode.removeChild(s);}
+                    addEventListener('load',f,false);
+                    setTimeout(f,3000);
+                }
+            })();
+
+            function cycleImages(){
+                var images = $('#welcomeimage img'),
+                    now    = images.filter(':visible'),
+                    next   = now.next().length ? now.next() : images.first(),
+                    speed  = 1500;
+
+                now.fadeOut(speed);
+                next.fadeIn(speed);
+            }
+
+            $(document).ready(function() {
+                setInterval(cycleImages, 3000);
+            });
+            
+        </script>  
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!-- For development only -->
+            <a href="/home"><span class="home_span"></span></a>
+            <div id="welcomeimage">
+                <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/Thirteen_Welcome.jpg">
+                <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/APearofHands_Welcome.jpg">
+                <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/Olivia_Welcome.jpg">
+                <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/BagLunch_Welcome.jpg">
+                <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/IslandFairy_Welcome.jpg">
+                <img src="http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/DistantCousins_Welcome.jpg">
+            </div>
+            <div id="title">
+                Wendy Donahoe | Realist Drawings
+            </div>
+            <div class="clear"></div>
+        </div>
+    </body>
+</html>
