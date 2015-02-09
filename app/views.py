@@ -3,6 +3,7 @@ from app import app
 
 url = "http://5279f0c1a4138f10bed8-3dc10a7c26bad057c08ae0fa5a5f3941.r93.cf5.rackcdn.com/"
 bw = [
+"DeerIsleCottage",
 "Daydreams",
 "Avery",
 "LeapDay",
