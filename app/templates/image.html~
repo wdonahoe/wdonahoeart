@@ -1,6 +1,0 @@
-<!DOCTYPE html>
-<html>
-    <body>
-        <img class='full-image' src={{img}}>
-    </body>
-</html>
